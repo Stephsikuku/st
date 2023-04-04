@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>It is what it is</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="about.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="serv.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+<div class="background">
+	<div class="navigation">
+		<a href="Home.html"><h1 class="logo">SKADER</h1></a>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="About us.html">About Us</a></li>
+			<li><a href="services.html">Services</a></li>
+		
+			<li><a href="contact us.html">Contact Us</a></li>
+		</ul>
+	</div>
+	<h2 style="color:beige;">services we Offer</h2>
+		<div class="container">
+			<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="kit/image2.jpg"></div>
+   <div class="swiper-slide"><img src="kit/image5.jpeg"></div>
+   <div class="swiper-slide"><img src="kit/image4.jpg"></div>
+   <div class="swiper-slide"><img src="kit/image3.jpg"></div>
+   <div class="swiper-slide"><img src="kit/drinks.jpg"></div>
+   <div class="swiper-slide"><img src="kit/food .jpg"></div>
+   <div class="swiper-slide"><img src="kit/general.jpg"></div>
+   <div class="swiper-slide"><img src="kit/team.jpg"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+		</div>
+		<div class="icons">
+			<ul>
+				<a href="About us.html"><li><i class="fa fa-chevron-left"></i><p style="color:beige;">Back</p></li>
+			</ul>
+		</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+	const swiper = new Swiper('.swiper', {
+		autoplay:{
+			delay: 3000,
+			disableOnInteraction:false,
+		},
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+</div>
+</body>
+<footer>
+	<h1>INTE/MG/1086/09/21</h1>
+	<h1>&copy; Stephanie @2023</h1>
+</footer>
+</html>
